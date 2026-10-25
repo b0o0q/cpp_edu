@@ -11,5 +11,5 @@ public:
 
   Fighter(std::string n, float hp, float dmg);
 
-  void info();
+  void info() const;
 };
