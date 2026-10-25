@@ -1,8 +1,10 @@
+#include "fighter.hpp"
 #include <iostream>
 #include <string>
 
+
 int main()
 {
-  std::cout << "Hello World" << std::endl;
+  Fighter mouse("Kel", 25, 14.3);
   return 0;
 }
