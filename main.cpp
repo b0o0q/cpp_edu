@@ -6,6 +6,6 @@
 int main()
 {
   Fighter mouse("Kel", 25, 14.3);
-  std::cout << "Complete" << std::endl;
+  mouse.info();
   return 0;
 }
