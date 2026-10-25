@@ -1,6 +1,12 @@
 #include "fighter.hpp"
-#include <string>
 
 Fighter::Fighter(std::string n, float hp, float dmg)
   : name(n), health(hp), damage(dmg)
 {}
+
+void Fighter::info()
+{
+    std::cout << name   << std::endl;
+    std::cout << health << std::endl;
+    std::cout << damage << std::endl;
+}
