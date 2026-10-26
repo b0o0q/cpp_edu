@@ -7,9 +7,10 @@ class Fighter
 public:
   std::string name;
   float health;
+  float full_health;
   float damage;
 
-  Fighter(std::string n, float hp, float dmg);
+  Fighter(std::string n, float hp, float fhp, float dmg);
 
   void info() const;
 };
